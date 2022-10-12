@@ -4,11 +4,11 @@
 # пусть N = 4, тогда [ 1, 2, 6, 24 ] (1, 1*2, 1*2*3, 1*2*3*4)
 
 n = int(input('Enter your number, please: '))
-result = []
+# result = []
 f = 1
 for i in range(1, n + 1):
     f *= i
-    result.append(f)
+    print(f, end= ', ')
+    # result.append(f)
 
-print(n)
-print(result)
+# print(result)
